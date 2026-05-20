@@ -6,8 +6,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/atm"; // Change "my_database" to your DB name
-        String user = "gopi"; // Replace with your MySQL username
+        String url = "jdbc:mysql://localhost:3306/atm"; 
+        String user = "gopi"; 
         String password = "gsai"; // Replace with your MySQL password
 
         try {
