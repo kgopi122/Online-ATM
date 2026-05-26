@@ -8,14 +8,14 @@ public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/atm"; 
         String user = "gopi"; 
-        String password = "gsai"; // Replace with your MySQL password
+        String password = "gsai";
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
             System.out.println("Connection successful!");
             // Perform your database operations here
 
-            connection.close(); // Always close the connection
+            connection.close(); 
         } catch (SQLException e) {
             System.out.println("Connection failed!");
             e.printStackTrace();
